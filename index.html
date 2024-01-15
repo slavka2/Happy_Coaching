@@ -2,8 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Happy Coaching</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,19 +14,18 @@
 <body>
         <header class="header">
     <div class="header__wrapper">
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <a href="index.html">
             <svg class="logo">
                 <use href="img/sprite.svg#logo">
             </svg>
         </a>   
-        <div class="menu123">
-            sadasd
-            <div class="menu222"></div>
-            <div class="menu222"></div>
-            <div class="menu222"></div>
-        </div>
-        <nav class="header__nav">
-            
+        
+        <nav class="header__nav">          
             <ul class="header__list">
                 <li class="header__item"><a href="" class="header__link">
                     Home
@@ -39,20 +39,14 @@
                 <li class="header__item"><a href="" class="header__link">
                     Extra Salespage
                 </a></li>
-            </ul>
-            <button class="btn header__btn" type="button">
-                Get your free guide now
-            </button>
+            </ul>            
         </nav>
+        <button class="btn header__btn" type="button">
+            Get your free guide now
+        </button>
     </div>
 </header>
         <section class="top">
-    <div class="menu123">
-        sadasd
-        <span class="menu222">1</span>
-        <div class="menu222"></div>
-        <div class="menu222"></div>
-    </div>
     <svg class="top__decor">
         <use href="img/sprite.svg#decor-green">
     </svg>
@@ -372,7 +366,7 @@
             </div>
             <div class="free-guide__right-wrapper">
                 <div class="free-guide__place place">
-                    <p class="place__before">Free guide!</p>
+                    <div class="place__before"></div>
                     <p class="place__text">
                         Are you ready to transform your life?
                     </p>
